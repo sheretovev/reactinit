@@ -1,0 +1,16 @@
+*.DS_Store
+*.log
+.idea/*
+.env
+.config
+.eslintcache
+node_modules
+_node_modules
+licence.key
+yarn-error.log
+npm-debug.log*
+dist/
+coverage
+cypress/videos
+cypress/images
+cypress/screenshots
