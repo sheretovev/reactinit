@@ -42,7 +42,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'src/index.html')
+      template: path.join(__dirname, './public/index.html')
     }),
     new OpenBrowserPlugin({ url: 'http://localhost:8080' })
   ]

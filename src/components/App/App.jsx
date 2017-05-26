@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Projects from '../Projects'
 export default class App extends Component {
   /*
    * Component render()
@@ -7,7 +7,11 @@ export default class App extends Component {
    */
   render() {
     return (
-      <div>Hello, React changed {this.props.name}!</div>
+      <div>
+        <h1>Hello, React changed {this.props.name}!</h1>
+        <span>Hui</span>
+        <Projects text="Hui from Projects"></Projects>
+      </div>
     );
   }
 }
